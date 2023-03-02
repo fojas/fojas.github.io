@@ -101,10 +101,15 @@
       }
       .content dt{
         font-size: .9rem;
-        letter-spacing: .5rem;
+        letter-spacing: .313rem;
         font-weight: 600;
         padding: .3rem;
         background-color: #edeceb;
+        -webkit-print-color-adjust:exact !important;
+        print-color-adjust:exact !important;
+      }
+      .content dd{
+        margin: 1rem 0;
       }
       .experience{
         margin:1rem 0;
@@ -127,6 +132,12 @@
   <body>
     <article class="two-col">
       <dl class="content">
+        
+          <dt>Summary</dt>
+          <dd class="summary">
+            Experienced full stack developer with a history of effective collaboration, a commitment to open communication, and delivering outstanding software.
+          </dd>
+        
         <dt>Experience</dt>
         <dd class="experiences">
           
@@ -138,7 +149,7 @@
                   Feb/2023
                 
               </h3>
-              <p class="experience__summary">Lead Engineer responsible for implementing coding best practices, including writing frontend tests and documentation that improved the quality of the codebase. Reduced page load time by over 80% by optimizing database queries and inefficient React and Django code. Created and maintained architecture decision records to help communicate technical solutions to stakeholders. Mentored junior engineers utilizing pair programming and thoughtful pull request feedback to help develop their skills.</p>
+              <p class="experience__summary">Responsible for implementing coding best practices, including writing frontend tests and documentation that improved the quality of the codebase. Reduced page load time by over 80% by optimizing database queries and inefficient React and Django code. Created and maintained architecture decision records to help communicate technical solutions to stakeholders. Mentored junior engineers utilizing pair programming and thoughtful pull request feedback to help develop their skills.</p>
             </div>
           
             <div class="experience">
@@ -149,7 +160,7 @@
                   Jan/2022
                 
               </h3>
-              <p class="experience__summary">Engineering Manager for Content Team. Coordinated company project requirements with 10+ other engineering teams. Architected projects to improve the performance of the automated approvals process. Helped stabilize test suite for monolith PHP app and k8s infrastructure.</p>
+              <p class="experience__summary">Coordinated company project requirements with 10+ other engineering teams. Architected projects to improve the performance of the automated approvals process. Helped stabilize test suite for monolith PHP app and k8s infrastructure.</p>
             </div>
           
             <div class="experience">
@@ -160,7 +171,7 @@
                   Apr/2020
                 
               </h3>
-              <p class="experience__summary">Lead Engineer for Fooda Client Financial and Consumer web apps. Responsible for mentoring/managing engineers, architecting solutions, and reviewing/writing code. Led efforts to increase application security and PCI compliance, upgrade application to the latest Rails version, and improve performance.</p>
+              <p class="experience__summary">Responsible for mentoring/managing engineers, architecting solutions, and reviewing/writing code. Led efforts to increase application security and PCI compliance, upgrade application to the latest Rails version, and improve performance.</p>
             </div>
           
             <div class="experience">
@@ -171,7 +182,7 @@
                   Mar/2019
                 
               </h3>
-              <p class="experience__summary">Development Team Leader for Vibes Mobile Engagement Platform. Managed applications responsible for Mobile Wallet/Coupon/Loyalty application and legacy monolith SMS/MMS marketing campaigns application.</p>
+              
             </div>
           
             <div class="experience">
@@ -182,7 +193,7 @@
                   Oct/2010
                 
               </h3>
-              <p class="experience__summary"></p>
+              
             </div>
           
             <div class="experience">
@@ -193,7 +204,7 @@
                   Aug/2009
                 
               </h3>
-              <p class="experience__summary"></p>
+              
             </div>
           
         </dd>
